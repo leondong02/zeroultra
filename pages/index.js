@@ -230,7 +230,7 @@ export default function Home() {
             <br></br>
             <div>
               <span class="highlight">
-                incoming swe @ <a href='https://www.meta.com/' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">meta</a>
+                incoming swe @ <a href='https://www.meta.com/' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">meta</a>, wearables ai (for smartglasses).
               </span>
               <br></br>
               <span class="highlight">
