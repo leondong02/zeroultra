@@ -16,12 +16,12 @@ export default function Interests({stargaze}) {
                                 coherent
                                 </a>
                                 /
-                                <a href='https://github.com/LeonDong02/pennappsxx' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">
-                                $machine
+                                <a href='https://uwflow.com/course/cs480' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">
+                                cs480
                                 </a>
                                 /
-                                <a href='https://uwflow.com/course/cs486' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">
-                                cs486
+                                <a href='https://cs.uwaterloo.ca/~yboykov/Courses/cs484/' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">
+                                cs484
                                 </a>
                                 ]
                             </span>
