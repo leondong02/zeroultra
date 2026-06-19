@@ -21,7 +21,7 @@ function ExperienceLine() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((current) => (current + 1) % internships.length);
-    }, 1500);
+    }, 1300);
 
     return () => clearInterval(interval);
   }, []);
