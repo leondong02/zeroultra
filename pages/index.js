@@ -24,7 +24,7 @@ function ExperienceLine() {
     const timeout = setTimeout(() => {
       interval = setInterval(() => {
         setIndex((current) => (current + 1) % internships.length);
-      }, 1350);
+      }, 1250);
     }, 4000);
 
     return () => {
