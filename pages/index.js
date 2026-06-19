@@ -223,13 +223,16 @@ export default function Home() {
             <div class="text-3xl font-bold my-1.5 md:my-2.5"><span class="highlight">leon dong</span></div>
             <div>
               <span class="highlight">
-                i studied @ <a href='https://uwaterloo.ca/' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">uwaterloo</a> where i graduated with a bachelor&apos;s of computer science and a minor in combinatorics and optimization.
+                i studied @ <a href='https://uwaterloo.ca/' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">uwaterloo</a> and graduated with a bachelor&apos;s of computer science and a minor in combinatorics and optimization.
               </span>
             </div>
             <br></br>
             <div>
               <span class="highlight">
-                currently swe @ <a href='https://www.meta.com/' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">meta</a>, ml for instagram genai creation
+                cur swe @ <a href='https://www.notion.com/' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">notion</a>, calendar x ai
+              </span>
+              <span class="highlight">
+                prev swe @ <a href='https://www.meta.com/' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">meta</a>, ml for instagram genai creation
               </span>
               <br></br>
               <span class="highlight">
