@@ -30,7 +30,7 @@ function ExperienceLine() {
 
   return (
     <>
-      prev swe @
+      prev swe @ 
       <a
         href="https://www.meta.com/"
         target="_blank"
@@ -38,7 +38,7 @@ function ExperienceLine() {
         className="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100"
       >
         meta
-      </a> (ml for instagram genai), prev intern @{" "}
+      </a>, prev swe intern @{" "}
       <a
         href={internship.href}
         target="_blank"
