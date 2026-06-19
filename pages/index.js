@@ -19,11 +19,18 @@ function ExperienceLine() {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setIndex((current) => (current + 1) % internships.length);
-    }, 1300);
+    let interval;
 
-    return () => clearInterval(interval);
+    const timeout = setTimeout(() => {
+      interval = setInterval(() => {
+        setIndex((current) => (current + 1) % internships.length);
+      }, 1350);
+    }, 4000);
+
+    return () => {
+      clearTimeout(timeout);
+      clearInterval(interval);
+    };
   }, []);
 
   const internship = internships[index];
