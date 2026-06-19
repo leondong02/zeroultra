@@ -6,6 +6,51 @@ import Head from 'next/head'
 import Script from 'next/script'
 import React, { useEffect, useState } from 'react';
 
+const internships = [
+  { name: "meta", href: "https://www.meta.com/" },
+  { name: "databricks", href: "https://www.databricks.com/" },
+  { name: "intuit", href: "https://www.intuit.com/" },
+  { name: "linkedin", href: "https://www.linkedin.com/" },
+  { name: "ecobee", href: "https://www.ecobee.com/" },
+  { name: "facedrive", href: "https://steeresg.com/" },
+];
+
+function ExperienceLine() {
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((current) => (current + 1) % internships.length);
+    }, 2000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  const internship = internships[index];
+
+  return (
+    <>
+      prev swe @
+      <a
+        href={https://www.meta.com/}
+        target="_blank"
+        rel="noreferrer"
+        className="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100"
+      >
+        meta
+      </a> (ml for instagram genai), prev intern @{" "}
+      <a
+        href={internship.href}
+        target="_blank"
+        rel="noreferrer"
+        className="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100"
+      >
+        {internship.name}
+      </a>
+    </>
+  );
+}
+
 export default function Home() {
 
   const [stargaze, setStargaze] = React.useState(false);
@@ -232,10 +277,7 @@ export default function Home() {
                 cur swe @ <a href='https://www.notion.com/' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">notion</a>, calendar x ai
               </span>
               <br></br>
-              <span class="highlight">
-                prev swe @ <a href='https://www.meta.com/' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">meta</a>, prev intern @ <a href='https://www.meta.com/' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">meta</a>, <a href='https://www.databricks.com/' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">databricks</a>, <a href='https://www.intuit.com/' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">intuit</a>, <a href='https://www.linkedin.com/' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">linkedin</a>, <a href='https://www.ecobee.com/' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">ecobee</a>, <a href='https://steeresg.com/' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">facedrive</a>
-              </span>
-              <br></br>
+              <ExperienceLine />
             </div>
             <br></br>
             <span class="highlight">
