@@ -231,6 +231,7 @@ export default function Home() {
               <span class="highlight">
                 cur swe @ <a href='https://www.notion.com/' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">notion</a>, calendar x ai
               </span>
+              <br></br>
               <span class="highlight">
                 prev swe @ <a href='https://www.meta.com/' target="_blank" rel="noreferrer" class="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100">meta</a>, ml for instagram genai creation
               </span>
