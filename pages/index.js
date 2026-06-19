@@ -32,7 +32,7 @@ function ExperienceLine() {
     <>
       prev swe @
       <a
-        href={https://www.meta.com/}
+        href="https://www.meta.com/"
         target="_blank"
         rel="noreferrer"
         className="transition ease-in-out underline text-violet-600 hover:text-violet-700 duration-100"
